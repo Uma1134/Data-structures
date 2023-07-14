@@ -1,0 +1,18 @@
+#include <stdio.h>
+int Iseven(int a);
+int main() {
+    printf("%d",Iseven(2));
+    return 0;
+}
+
+int Iseven(int a)
+{
+       if(a%2==0)
+    {
+        return 2;
+    }
+    else
+    {
+        return 1;
+    }
+}
