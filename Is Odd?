@@ -1,0 +1,18 @@
+#include <stdio.h>
+int Isodd(int a);
+int main() {
+    printf("%d",Isodd(3));
+    return 0;
+}
+
+int Isodd(int a)
+{
+       if(a%2==0)
+    {
+        return 1;
+    }
+    else
+    {
+        return 2;
+    }
+}
