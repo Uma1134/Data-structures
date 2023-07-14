@@ -1,0 +1,52 @@
+//if statement
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	int b=2;
+	if(a<b)		//test-condition
+	{
+		printf("a is smaller than b");
+	}
+	return 0;
+}
+
+//if-else statement
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	int b=2;
+	if(a<b)		//test-condition
+	{
+		printf("a is smaller than b");
+	}
+	else
+	{
+		printf("b is smaller than a");
+	}
+	return 0;
+}
+
+//nested if statement
+#include<stdio.h>
+int main()
+{
+	int num=1;
+	if(num<10)
+	{
+		if(num==1)
+		{
+			printf("The value is:%d\n",num);
+		}
+		else
+		{
+			printf("The value is greater than 1");
+		}
+	}
+	else
+	{
+		printf("The value is greater than 10");
+	}
+	return 0;
+}
