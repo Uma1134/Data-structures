@@ -1,0 +1,11 @@
+#include <stdio.h>
+int last_digit(int a);
+int main() {
+    printf("%d",last_digit(187));
+    return 0;
+}
+
+int last_digit(int a)
+{
+    return abs(a%10);
+}Last digit of a number
